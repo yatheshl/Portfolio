@@ -1,0 +1,144 @@
+<!-- 
+    IMPORTANT! 
+    
+    Keep this file unchanged to use as a template for all future project pages. 
+  
+    For every new project you add to your portfolio, make a copy of this file in the
+    'project-pages' folder with a name related to the project.
+  -->
+  
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="utf-8">
+      <!-- 
+        TODO
+  
+        Upload your Unemployable (or whatever photo you like) to the assets/images folder
+        and change the name of the image below to match the uploaded one
+  
+        Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+  
+        This should be the same across all pages.
+       -->
+       <link rel="icon" href="../assets/images/1311.png" />
+       <title>My Portfolio</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+          <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/typography.css">
+      <link rel="stylesheet" href="../css/utilities.css">
+  
+          <script defer src="../js/script.js"></script>
+      </head>
+      <body>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+          <!-- 
+            TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+  
+            (this should be the same across all pages)
+           -->
+          <span class="nav-title" id="title">My Portfolio</span>
+          <!-- 
+            TODO - Change the email after 'mailto:' to your email address for contact 
+          
+            (this should be the same across all pages)
+          -->
+          <a class="button" href="mailto:whitevans.eth@gmail.com">
+            <span class="button-text">Contact Me</span>
+          </a>
+        </a>
+      </div>
+  
+      <!-- MAIN PAGE CONTENT -->
+      <div id="main-content">
+  
+        <!-- PROJECT HEADER -->
+        <div id="project-header">
+            <!-- 
+              TODO
+  
+              - Change the 'main-title' text to the name of your project
+              - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+              - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+            -->
+          <div class="main-title">Facial Emotion Recognition</div>
+          <div class="body-text"><b><a href="" class="github-link" target="_blank">Github</a></b></div>
+          <div class="body-text">This project focuses on developing a facial emotion recognition system using a Convolutional Neural Network (CNN). The system is capable of detecting and classifying human emotions in real-time through facial expressions. It is built using Python, with Keras and TensorFlow as the primary libraries. The model is trained and validated on the FER2013 dataset, which contains 35,887 grayscale images of faces, each labeled with one of seven emotions.</div>
+          <image class="project-header-image" src="../assets/images/emotion1.jpeg">
+          <br>
+          <div class="body-text"><b>Objective:</b> Developed a real-time facial emotion recognition system that accurately classifies human emotions from facial expressions using a Convolutional Neural Network (CNN).</div>
+          <div class="body-text"><b>Dataset:</b> Utilized the FER2013 dataset, which consists of 35,887 grayscale images of faces, each labeled with one of seven emotions (angry, disgust, fear, happy, sad, surprise, and neutral).</div>
+          <div class="body-text"><b>Model Architecture:</b>
+
+            Designed a CNN architecture with multiple convolutional, pooling, and dense layers.
+            Employed batch normalization and dropout techniques to prevent overfitting.
+            Trained the model using the Adam optimizer and categorical crossentropy loss function.
+            Achieved competitive performance on the validation set, with potential for further optimization.</div>
+        </div>
+  
+        <!-- PROJECT DETAILS -->
+        <!-- 
+          TODO
+  
+          - Change the 'subheader-text' to whatever header you want for project details
+          - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+        -->
+        <div id="project-details">
+          <div class="subheader-text">Libraries Used</div>
+          <div class="body-text"><b>Keras:</b> A high-level neural networks API, used for building and training the CNN model.</div>
+          <div class="body-text"><b>TensorFlow:</b> An open-source machine learning framework, used as the backend for Keras.</div>
+          <div class="body-text"><b>OpenCV:</b> A library for real-time computer vision, used for face detection and preprocessing.</div>
+          <br>
+          <div class="subheader-text">Skillset Displayed</div>
+          <ul>
+            <li class="body-text"><b>Deep Learning:</b> Demonstrated proficiency in designing and training a Convolutional Neural Network (CNN) for facial emotion recognition.</li>
+            <br>
+            <li class="body-text"><b>Machine Learning:</b> Showcased the ability to preprocess data, fine-tune model architecture, and optimize hyperparameters.</li>
+            <br>
+            <li class="body-text"><b>Computer Vision:</b> Gained experience in using OpenCV for real-time face detection and image preprocessing.</li>
+            <br>
+            <li class="body-text"><b>Python Programming:</b> Utilized Python for implementing the project, leveraging libraries such as Keras, TensorFlow, and OpenCV.</li>
+            <br>
+            <li class="body-text"><b>Problem Solving:</b> Developed a practical solution for real-time facial emotion recognition, applicable in various contexts (e.g., mental health, security, human-computer interaction).</li>
+          </ul>
+        </div>
+  
+                 
+      </div>
+  
+      <!-- FOOTER -->
+      <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/yatheshl/?next=%2F">
+          <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://twitter.com/yatheshl">
+          <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="mailto:yatheshlakalapude@gmail.com">
+          <image src="../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+      </div>
+  
+      </body>
+  </html>
+  

@@ -1,0 +1,141 @@
+
+
+<!-- 
+    IMPORTANT! 
+    
+    Keep this file unchanged to use as a template for all future project pages. 
+  
+    For every new project you add to your portfolio, make a copy of this file in the
+    'project-pages' folder with a name related to the project.
+  -->
+  
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="utf-8">
+      <!-- 
+        TODO
+  
+        Upload your Unemployable (or whatever photo you like) to the assets/images folder
+        and change the name of the image below to match the uploaded one
+  
+        Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+  
+        This should be the same across all pages.
+       -->
+       <link rel="icon" href="../assets/images/1311.png" />
+       <title>My Portfolio</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+          <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/typography.css">
+      <link rel="stylesheet" href="../css/utilities.css">
+  
+          <script defer src="../js/script.js"></script>
+      </head>
+      <body>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+          <!-- 
+            TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+  
+            (this should be the same across all pages)
+           -->
+          <span class="nav-title" id="title">My Portfolio</span>
+          <!-- 
+            TODO - Change the email after 'mailto:' to your email address for contact 
+          
+            (this should be the same across all pages)
+          -->
+          <a class="button" href="mailto:whitevans.eth@gmail.com">
+            <span class="button-text">Contact Me</span>
+          </a>
+        </a>
+      </div>
+  
+      <!-- MAIN PAGE CONTENT -->
+      <div id="main-content">
+  
+        <!-- PROJECT HEADER -->
+        <div id="project-header">
+            <!-- 
+              TODO
+  
+              - Change the 'main-title' text to the name of your project
+              - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+              - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+            -->
+          <div class="main-title">Q-Learning Taxi-V3</div>
+          <div class="body-text"><b><a href="https://github.com/yatheshl/Q-Learning-Taxi-v3" class="github-link" target="_blank">Github</a></b></div>
+          <div class="body-text">In this project, I created an AI agent to solve the Taxi-v3 environment from OpenAI Gym. The agent's goal is to pick up a passenger at a certain location and drop them off at another location in the shortest amount of time. The agent uses Q-learning, a model-free reinforcement learning algorithm, to learn the optimal actions to take in each state and reduce the number of steps taken to complete the task.</div>
+          <image class="project-header-image" src="../assets/images/taxi1.jpeg">
+          <br>
+          <div class="body-text"><b>Project Outcomes:</b></div>
+          <div class="body-text">The AI agent was trained over 50,000 episodes and tested on 100 episodes. The average score over the test episodes was calculated to measure the agent's performance. The agent successfully learned to complete the task efficiently, showcasing the effectiveness of Q-learning in solving reinforcement learning problems.</div>
+        </div>
+  
+        <!-- PROJECT DETAILS -->
+        <!-- 
+          TODO
+  
+          - Change the 'subheader-text' to whatever header you want for project details
+          - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+        -->
+        <div id="project-details">
+          <div class="subheader-text">Libraries Used</div>
+          <div class="body-text"><b>NumPy:</b> A popular library for numerical computations in Python. Used for creating and manipulating the Q-table.</div>
+          <div class="body-text"><b>Gym:</b> OpenAI's library for creating and interacting with reinforcement learning environments.</div>
+          <div class="body-text"><b>Random:</b> Python's built-in library for generating random numbers. Used for exploration-exploitation trade-off.</div>
+          <div class="body-text"><b>Matplotlib:</b> A plotting library in Python. Used for visualizing the environment.</div>
+          <br>
+          <div class="subheader-text">Skillset Displayed</div>
+          <ul>
+            <li class="body-text"><b>Reinforcement Learning:</b> Implemented the Q-learning algorithm to train an AI agent to solve the Taxi-v3 environment.</li>
+            <br>
+            <li class="body-text"><b>Exploration-Exploitation Trade-off:</b> Balanced the exploration and exploitation during the learning process by implementing the epsilon-greedy strategy.</li>
+            <br>
+            <li class="body-text"><b>Hyperparameter Tuning:</b> Tuned learning rate, discount factor, and exploration rate decay to optimize the learning process.</li>
+            <br>
+            <li class="body-text"><b>Environment Interaction:</b> Utilized the Gym library to interact with the Taxi-v3 environment, executing actions, and receiving rewards and state transitions.</li>
+            <br>
+            <li class="body-text"><b>Visualization:</b> Visualized the environment during testing using Matplotlib to display the agent's progress in real-time.</li>
+          </ul>
+        </div>
+  
+                 
+      </div>
+  
+      <!-- FOOTER -->
+      <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/yatheshl/?next=%2F">
+          <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://twitter.com/yatheshl">
+          <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="mailto:yatheshlakalapude@gmail.com">
+          <image src="../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+      </div>
+  
+      </body>
+  </html>
+  

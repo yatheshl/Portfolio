@@ -1,0 +1,154 @@
+
+
+<!-- 
+    IMPORTANT! 
+    
+    Keep this file unchanged to use as a template for all future project pages. 
+  
+    For every new project you add to your portfolio, make a copy of this file in the
+    'project-pages' folder with a name related to the project.
+  -->
+  
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="utf-8">
+      <!-- 
+        TODO
+  
+        Upload your Unemployable (or whatever photo you like) to the assets/images folder
+        and change the name of the image below to match the uploaded one
+  
+        Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+  
+        This should be the same across all pages.
+       -->
+       <link rel="icon" href="../assets/images/1311.png" />
+       <title>My Portfolio</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+          <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/typography.css">
+      <link rel="stylesheet" href="../css/utilities.css">
+  
+          <script defer src="../js/script.js"></script>
+      </head>
+      <body>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+          <!-- 
+            TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+  
+            (this should be the same across all pages)
+           -->
+          <span class="nav-title" id="title">My Portfolio</span>
+          <!-- 
+            TODO - Change the email after 'mailto:' to your email address for contact 
+          
+            (this should be the same across all pages)
+          -->
+          <a class="button" href="mailto:whitevans.eth@gmail.com">
+            <span class="button-text">Contact Me</span>
+          </a>
+        </a>
+      </div>
+  
+      <!-- MAIN PAGE CONTENT -->
+      <div id="main-content">
+  
+        <!-- PROJECT HEADER -->
+        <div id="project-header">
+            <!-- 
+              TODO
+  
+              - Change the 'main-title' text to the name of your project
+              - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+              - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+            -->
+          <div class="main-title">Real-Time Face Recognition</div>
+          <div class="body-text"><b><a href="https://github.com/yatheshl/Real-Time-Face-Recognition" class="github-link" target="_blank">Github</a></b></div>
+          <div class="body-text">This project presents a real-time face recognition and identification system using OpenCV, face_recognition library, and Support Vector Machine (SVM) classifier. The system is designed to recognize and identify known individuals from a video stream, displaying their names and the confidence level of the recognition.</div>
+          <image class="project-header-image" src="../assets/images/facetemplate.jpeg">
+          <br>
+          <div class="body-text"><b>Key Features:</b></div>
+          <ul>
+            <li class="body-text"><b>Preprocessing and Encoding of Known Faces:</b> The system preprocesses a set of known face images stored in the known_faces directory, generating face encodings for each person. The face encodings are then averaged to create a single representation for each individual.</li>
+            <br>
+            <li class="body-text"><b>Training an SVM Classifier:</b> A linear SVM classifier is trained using the face encodings as input features and the names of the individuals as target labels. This classifier is responsible for predicting the identity of a person from their face encoding.</li>
+            <br>
+            <li class="body-text"><b>Real-Time Face Recognition:</b> The system captures video frames using OpenCV's VideoCapture object, resizing and converting them to the appropriate color space. Face locations are detected using the face_recognition library, and encodings are generated for each detected face.</li>
+            <br>
+            <li class="body-text"><b>Identification and Confidence Level Estimation:</b> The SVM classifier predicts the identity of each detected face, along with the corresponding confidence level (probability). The system displays the recognized individual's name and confidence level as an overlay on the video frame.</li>
+            <br>
+            <li class="body-text"><b>Display and User Interaction:</b> The video stream, along with the recognition and identification results, is displayed in real-time using OpenCV's imshow function. The system allows the user to stop the video stream by pressing the 'q' key.</li>
+          </ul>
+        </div>
+  
+        <!-- PROJECT DETAILS -->
+        <!-- 
+          TODO
+  
+          - Change the 'subheader-text' to whatever header you want for project details
+          - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+        -->
+        <div id="project-details">
+          <div class="subheader-text">Libraries Used</div>
+          <div class="body-text"><b>face_recognition:</b> a library for face detection, recognition, and manipulation in images and videos.</div>
+          <div class="body-text"><b>OpenCV:</b> a library for computer vision and machine learning.</div>
+          <div class="body-text"><b>Scikit-learn:</b> a library for machine learning.</div>
+          <div class="body-text"><b>NumPy:</b> a library for scientific computing.</div>
+          <div class="body-text"><b>Os:</b> a library for interacting with the operating system and file system.</div>
+          <div class="body-text"><b>face_recognition:</b> Recognize and manipulate faces.</div>
+          <br>
+          <div class="subheader-text">Skillset Displayed</div>
+          <div class="body-text"><b>Python programming</b>, <b>Data Handling and Manipulation</b>, <b>Machine Learning</b>, and <b>Computer Vision</b></div>
+          <ul>
+            <li class="body-text">Knowledge of face detection and recognition techniques using face_recognition library.</li>
+            <br>
+            <li class="body-text">Ability to work with image and video data using OpenCV and numpy libraries.</li>
+            <br>
+            <li class="body-text">Knowledge of SVM classifier and ability to train a classifier using sklearn library.</li>
+            <br>
+            <li class="body-text">Proficiency in data handling and manipulation using Python libraries such as os and numpy.</li>
+            <br>
+            <li class="body-text">Knowledge of programming constructs such as loops, conditional statements, and functions.</li>
+          </ul>
+        </div>
+  
+                 
+      </div>
+  
+      <!-- FOOTER -->
+      <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/yatheshl/?next=%2F">
+          <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://twitter.com/yatheshl">
+          <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="mailto:yatheshlakalapude@gmail.com">
+          <image src="../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+      </div>
+  
+      </body>
+  </html>
+  

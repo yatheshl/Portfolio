@@ -1,0 +1,175 @@
+
+
+<!-- 
+    IMPORTANT! 
+    
+    Keep this file unchanged to use as a template for all future project pages. 
+  
+    For every new project you add to your portfolio, make a copy of this file in the
+    'project-pages' folder with a name related to the project.
+  -->
+  
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="utf-8">
+      <!-- 
+        TODO
+  
+        Upload your Unemployable (or whatever photo you like) to the assets/images folder
+        and change the name of the image below to match the uploaded one
+  
+        Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+  
+        This should be the same across all pages.
+       -->
+       <link rel="icon" href="../assets/images/1311.png" />
+       <title>My Portfolio</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+          <link rel="stylesheet" href="../css/layout.css">
+      <link rel="stylesheet" href="../css/typography.css">
+      <link rel="stylesheet" href="../css/utilities.css">
+  
+          <script defer src="../js/script.js"></script>
+      </head>
+      <body>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+          <!-- 
+            TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+  
+            (this should be the same across all pages)
+           -->
+          <span class="nav-title" id="title">My Portfolio</span>
+          <!-- 
+            TODO - Change the email after 'mailto:' to your email address for contact 
+          
+            (this should be the same across all pages)
+          -->
+          <a class="button" href="mailto:whitevans.eth@gmail.com">
+            <span class="button-text">Contact Me</span>
+          </a>
+        </a>
+      </div>
+  
+      <!-- MAIN PAGE CONTENT -->
+      <div id="main-content">
+  
+        <!-- PROJECT HEADER -->
+        <div id="project-header">
+            <!-- 
+              TODO
+  
+              - Change the 'main-title' text to the name of your project
+              - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+              - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+            -->
+          <div class="main-title">Statistical Music Analysis</div>
+          <div class="body-text"><b><a href="https://github.com/yatheshl/STA220-Analysis-of-Music-Trends" class="github-link" target="_blank">Github</a></b></div>
+          <div class="body-text">Analysis of Music Trends project is an in-depth examination of the patterns and trends prevalent in the music industry. This data-driven research project utilizes statistical analysis techniques to explore the various factors that have influenced the popularity and evolution of music over time. By delving into aspects such as genre preferences, artist influences, and listener demographics, the study aims to provide valuable insights for musicians, producers, and the music industry as a whole.</div>
+          <image class="project-header-image" src="../assets/images/music1.jpeg">
+        </div>
+  
+        <!-- PROJECT DETAILS -->
+        <!-- 
+          TODO
+  
+          - Change the 'subheader-text' to whatever header you want for project details
+          - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+        -->
+        <div id="project-details">
+          <div class="subheader-text">Research Questions</div>
+          <div class="project-details-content">
+            <div class="body-text">1. Extract lyrics data for top rap songs from Billboard charts (2013-2022) to analyze and visualize trends in popular rap lyrics over time.</div>
+            <div class="body-text">2. Identify the most popular songs in major US metropolitan cities from October 2021 to March 2023 and analyze regional music preferences.</div>
+            <div class="body-text">3. Investigate the relationship between tempo and energy of top 50 popular rap and pop songs from Billboard charts using Spotipy.</div>
+            <div class="body-text">4. Perform sentiment analysis on tweets and song lyrics of Kanye West to understand the correlation between his social media presence and music.</div>
+            <div class="body-text">5. Analyze sampling and production trends in the rap industry using data from Whosampled and Billboard, and create a graph connecting artists and producers.</div>
+          </div>
+          <br>
+          <div class="subheader-text">Libraries Used</div>
+          <div class="body-text"><b>Pandas</b>, <b>NumPy</b>, <b>Matplotlib</b>, <b>Seaborn</b>, <b>Spotipy</b>, <b>Networkx</b>, <b>Sklearn</b>, <b>NLTK</b>, <b>Wordcloud</b> and <b>Tweepy</b></div>
+          <br>
+          <div class="subheader-text">Skillset Displayed</div>
+          <div class="body-text"><b>Data Collection</b>, <b>Data Cleaning and Preprocessing</b>, <b>Data Analysis</b>, <b>Data Visualization</b>, <b>Natural Language Processing</b>, <b>Network Analysis</b> and <b>Machine Learning</b></div>
+        </div>
+  
+        <!-- IMAGE GALLERY -->
+        <div id="project-gallery">
+          <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+          <div class="subheader-text">Visualizations</div>
+          <div class="project-gallery-content">
+              <!-- 
+                TODO
+  
+                This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+  
+                Full Width Image:
+  
+                  <div class="gallery-image-container">
+                    <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                    <span class="image-caption">IMAGE_CAPTION</span>
+                  </div>
+  
+                Half Width Image: 
+  
+                  <div class="gallery-image-container half-width">
+                    <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                    <span class="image-caption">IMAGE_CAPTION</span>
+                  </div>
+  
+                - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                    - IMAGE_NAME: the name of the image file in assets/images
+                    - IMAGE_CAPTION: to the caption of the image
+              -->
+              <div class="gallery-image-container">
+                <img src="../assets/images/TF-IDF_plot.png" class="gallery-image">
+                <span class="image-caption" style="text-align:center;">TF-IDF plot</span>
+              </div>
+              <div class="gallery-image-container">
+                <img src="../assets/images/networkx.png" class="gallery-image">
+                <span class="image-caption" style="text-align:center;">Networkx Plot</span>
+              </div>
+              <div class="gallery-image-container">
+                <img src="../assets/images/Rap_Bubblechart.png" class="gallery-image">
+                <span class="image-caption" style="text-align:center;">Bubble Chart</span>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- FOOTER -->
+      <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/yatheshl/?next=%2F">
+          <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://twitter.com/yatheshl">
+          <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="mailto:yatheshlakalapude@gmail.com">
+          <image src="../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+      </div>
+  
+      </body>
+  </html>
+  
